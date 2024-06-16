@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
   font-family: Radiance;
   src: url(./Fonts/radiance-semibold.ttf);
@@ -29,13 +28,4 @@ body {
     height: 10px;
     width: 100px;
     color: #FF6046;
-}
-
-.page1{
-    background: url(./);
-=======
-*{
-    padding:0;
-    margin:0;
->>>>>>> 53fce87aae857bfb6ed7ba4aef4d5db85174f519
 }
