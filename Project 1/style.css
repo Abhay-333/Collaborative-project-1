@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Radiance;
+  src: url(./Fonts/radiance-semibold.ttf);
+}
+
+@font-face {
+  font-family: Reaver;
+  src: url(./Fonts/Reaver-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Reaver;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Destruct-h1::after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 10px;
+    width: 100px;
+    color: #FF6046;
+}
+
+.page1{
+    background: url(./);
+}
