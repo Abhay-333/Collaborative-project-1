@@ -29,3 +29,32 @@ body {
     width: 100px;
     color: #FF6046;
 }
+
+.highlighted-text{
+  position: relative;
+  color: transparent;
+}
+
+.highlighted-text::after{
+  content: "MULTIPLAYER";
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  /* transform: translate(-90%, 100%); */
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.PlayforFree{
+  backdrop-filter: blur(50px);
+}
+
+/* .highlighted-text::before{
+  content: "MULTIPLAYER";
+  position: absolute;
+  top: 15%;
+  left: 1%;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  transform: translate(-89.5%, 69.9%);
+} */
