@@ -19,7 +19,7 @@ body {
   width: 100%;
 }
 .page1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 .Destruct-h1::after
@@ -62,7 +62,4 @@ body {
   transform: translate(-89.5%, 69.9%);
 } */
 
-.blocks{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  
-}
+
