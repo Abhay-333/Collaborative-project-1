@@ -62,7 +62,7 @@ body {
 } */
 
 .page2Container {
-  /* background-image: url(./Resources/radiant_dire5.jpg); */
+  background-image: url(./Resources/radiant_dire5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
