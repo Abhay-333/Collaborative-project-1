@@ -18,27 +18,26 @@ body {
   height: 100%;
   width: 100%;
 }
-.page1{
+.page1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
-.Destruct-h1::after
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
-    height: 10px;
-    width: 100px;
-    color: #FF6046;
+.Destruct-h1::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 10px;
+  width: 100px;
+  color: #ff6046;
 }
 
-.highlighted-text{
+.highlighted-text {
   position: relative;
   color: transparent;
 }
 
-.highlighted-text::after{
+.highlighted-text::after {
   content: "MULTIPLAYER";
   position: absolute;
   top: 10%;
@@ -48,7 +47,7 @@ body {
   -webkit-text-stroke: 1px white;
 }
 
-.PlayforFree{
+.PlayforFree {
   backdrop-filter: blur(50px);
 }
 
@@ -62,4 +61,18 @@ body {
   transform: translate(-89.5%, 69.9%);
 } */
 
+.page2Container {
+  background-image: url(./Resources/radiant_dire5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
+.page3{
+  background-image: url(./Resources/heroes_mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
