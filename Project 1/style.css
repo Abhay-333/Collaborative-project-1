@@ -69,7 +69,7 @@ body {
   height: 100vh;
 }
 
-.page3{
+.page3container{
   background-image: url(./Resources/heroes_mobile.jpg);
   background-position: center ;
   background-size: cover;
