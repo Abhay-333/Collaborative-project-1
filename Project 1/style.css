@@ -164,5 +164,6 @@ body {
 
 .box:hover {
   border-color: red;
+  scale:1.05;
 
 }
