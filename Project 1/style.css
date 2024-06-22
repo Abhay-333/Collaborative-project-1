@@ -97,3 +97,12 @@ body {
   pointer-events: none;
   background: linear-gradient(to right, black 3%, transparent 30%, transparent 70%, black 98%);
 }
+
+
+.marq1 img:hover{
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+  scale: 1.3;
+}
