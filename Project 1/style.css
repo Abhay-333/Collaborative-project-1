@@ -7,17 +7,20 @@
   font-family: Reaver;
   src: url(./Fonts/Reaver-Bold.ttf);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Reaver;
 }
+
 html,
 body {
   height: 100%;
   width: 100%;
 }
+
 .page1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
@@ -69,27 +72,29 @@ body {
   height: 100vh;
 }
 
-.page3container{
+.page3container {
   background-image: url(./Resources/heroes_mobile.jpg);
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.page5{
+
+.page5 {
   background-image: url(./Resources/4th\ page\ back.jpg);
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.page6container{
+
+.page6container {
   background-image: url(./Resources/last\ image.png);
-  background-position: center ;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 
-.page4-overlay{
+.page4-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,6 +103,7 @@ body {
   background: linear-gradient(to right, black 3%, transparent 30%, transparent 70%, black 98%);
 }
 
+<<<<<<< HEAD
 
 .marq1 img:hover{
   border-radius: 10px;
@@ -105,4 +111,68 @@ body {
   transition-timing-function: ease-in-out;
   transition-property: all;
   scale: 1.3;
+=======
+.game2 {
+  display: none;
+  border: 2px solid whitesmoke;
+}
+
+.game:hover .game1 {
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid whitesmoke;
+
+}
+
+.game:hover .game2 {
+  display: block;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.game2 h3:hover {
+  left: 5;
+}
+
+.page1-overlay {
+  transition: 1s;
+  animation: slide 2s ease forwards;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-350px);
+    opacity: 0;
+
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.box-1:hover .box-con {
+  top: 90px;
+
+
+}
+
+.box-2:hover .box-con {
+  top: 10px;
+
+
+}
+.box-3:hover .box-con {
+  top: 30px;
+
+
+}
+
+.box:hover {
+  border-color: red;
+
+>>>>>>> 33c109e16c1309fbdb985b2730c3ad7b16a1acf6
 }
