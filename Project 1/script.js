@@ -12,6 +12,7 @@ gsap.to('.moving-right',{
     ease:"linear",
 })
 
+
 // gsap.to('.right',{
 //     x:200,
 //     duration:4,
